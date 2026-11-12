@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # Load trained model
-MODEL_PATH = Path(__file__).parent / "models" / "sms_spam_model.pkl"
+MODEL_PATH = Path(__file__).parent / "models" / "sms_spam_model_improved.pkl"
 
 @st.cache_resource
 def load_model():
